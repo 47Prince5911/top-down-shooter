@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class EnemyRandomSpawner : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    [SerializeField] private float spawnRate = 1f;
+
+    [SerializeField] private GameObject emenyPrefab;
+
+    private void Start()
     {
-        
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }
